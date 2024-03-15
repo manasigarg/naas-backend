@@ -1,10 +1,12 @@
-## Summary
+# NFT-as-a-Service (NaaS)
 
-Code for NFT smart contract, which can be utilized along with front end screens to create "NFT-as-a-service" application.
-The corresponding frontend functionality is available at:
+This application provides an implementation for using NFT-as-a-service.
+This library can allow easy prottyping of NFT operations and applications.
+
+The codebase for the NFT smart contract is available in a separate repository:
 https://github.com/manasigarg/naas-frontend
 
-## Contents
+## Features
 
-- **naas.py**: Code to expose the NFT functions through a webservice interface
-- **nft.py**: Code for NFT, providing functionality such as mint, get owner, get owners etc.
+- **Wallet Integration**: Integrated wallet library to create addresses and sign transactions on Ethereum.
+- **NFT Functionality**: Users can mint, store and send NFTs.
